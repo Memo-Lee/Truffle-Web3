@@ -44,20 +44,19 @@
       }
   ```
 ## Step 3 - contract run -
-1. `truffle develop`
+1. `truffle compile`
+   - `truffle develop`
    - `migrate --reset`
    
-   
-
-## Bonus 
-`truffle(develop)> let instance = await HelloWorld.deployed()`
+## The end - result 
+`truffle(develop)> instance = await HelloWorldSecond.deployed()`
 ``` solidity
    undefined
 ```
-`truffle(develop)> instance.hello()`
+`truffle(develop)> instance.message()`
 ``` solidity
-   'Hello World'
+   'Hello world this is second contract text'
 ```
 
-![This is an image](https://github.com/Memo-Lee/Truffle-Web3/blob/main/1.HelloWorld/img/helloworld.png)
+![This is an image](https://github.com/Memo-Lee/Truffle-Web3/blob/main/2.Migrations%20%26%20Deployment/img/Migrations%26Deploy.png)
 
