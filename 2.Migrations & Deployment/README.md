@@ -59,5 +59,5 @@
    'Hello world this is second contract text'
 ```
 
-![This is an image](https://github.com/Memo-Lee/Truffle-Web3/blob/main/1.HelloWorld/img/helloworld.png)
+![This is an image](https://github.com/Memo-Lee/Truffle-Web3/blob/main/2.Migrations%20%26%20Deployment/img/Migrations%26Deploy.png)
 
