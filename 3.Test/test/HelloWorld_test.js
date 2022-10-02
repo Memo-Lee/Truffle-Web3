@@ -13,7 +13,7 @@ contract("HelloWorld",accounts => {
     it("owner should be accounts[0]", async() =>{
         let instance = await HelloWorld.deployed();
         let owner = await instance.owner();
-        // Hello_World_Migrations'a eşit olmalı
+        // Hello_World_Migrations'a eşit olmalı (must be equal to Hello_World_Migrations)
         assert.equal(owner,accounts[0]);
     })
 })
