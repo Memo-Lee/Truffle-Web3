@@ -1,5 +1,5 @@
 # Migrations & Deployment
-**Farkı 2 sözleşmeyi (contractları) tek bir deploydan dağıtmak. (We use 2 diffrent contract 1 deployment)**
+**Farklı 2 sözleşmeyi (contractları) tek bir deploydan dağıtmak. (We use 2 diffrent contract 1 deployment)**
 ## Step 1 - change contract -
 `contracts > HelloWorld.sol` <br/>
 
